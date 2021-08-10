@@ -12,8 +12,17 @@ A cute script to count FLOPS and number of learnable PARAMS for any custom or pr
    
 * Step 2 : Calculating Metrics for Custom or Predefined Model : 
 
+```bash
 > Set the "library-path"  of your "Model()" in Line 2, Model() should contain torch.xx
 > Set the "device-id" of your system in Line 5, ideally GPU 
 > Set the "dimension" of the input tensor of your "Model()"
+```
+
+* Step 3 : Generate Metrics : 
+
+```bash
+    python flops.py
+   ```
+
 
 
